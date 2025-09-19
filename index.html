@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>game universe</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="logo">Game Universe</h1>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <h2>welcome to the base boss</h2>
+      <p>Esta es una página de ejemplo creada con HTML y CSS.</p>
+      <a class="cta" href="juegos.html" target="_blank">Conoce más</a>
+    </section>
+
+    <section id="about" class="container">
+      <h3>Sobre este sitio</h3>
+      <p>en este sitio encontraras recomendaciones sobre videojuegos de diferentes plataformas, de play station 5, xbox series, y pc</p>
+    </section>
+
+    <section id="contacto" class="container">
+      <h3>Contacto</h3>
+      <p>Correo: <a href="mailto:tu@correo.com">santiago.torresa@cun.edu.co</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> — V has come to</p>
+  </footer>
+
+  <script>
+    // pequeño script para el año actual
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

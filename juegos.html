@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Información de Juegos</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="logo">Información de Juegos</h1>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Volver al inicio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>PlayStation 5</h2>
+      <p>Juegos destacados: Spiderman Remastered, God Of War 3, The Last Of Us.</p>
+    </section>
+
+    <section>
+      <h2>Xbox Series X/S</h2>
+      <p>Juegos destacados: Halo 2, Gears of war 5, Red dead redemption 1 y 2.</p>
+    </section>
+
+    <section>
+      <h2>PC Gaming</h2>
+      <p>Juegos destacados: Elden Ring, Assassin's creed Brotherhood, Metal Gear Solid V "THE PHANTOM PAIN".</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> — Game Universe</p>
+    <p><a href="index.html" class="btn-volver">⬅ Volver al inicio</a></p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
